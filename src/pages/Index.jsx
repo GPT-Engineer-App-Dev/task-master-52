@@ -27,7 +27,7 @@ const Index = () => {
             value={taskInput}
             onChange={(e) => setTaskInput(e.target.value)}
           />
-          <Button colorScheme="teal" onClick={addTask}>
+          <Button colorScheme="green" onClick={addTask}>
             Add Task
           </Button>
         </HStack>
